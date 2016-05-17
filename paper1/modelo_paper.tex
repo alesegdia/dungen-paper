@@ -1,0 +1,61 @@
+\documentclass[]{llncs}
+
+\usepackage{hyperref}
+\usepackage[pdftex]{color,graphicx}
+\usepackage{amssymb}
+%\usepackage{amsmath} % assumes amsmath package installed
+\usepackage{fancyvrb,fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{todonotes}
+
+
+%*********************** FORMATO DE LISTADOS **************************
+\lstset{
+  basicstyle=\tiny,
+  keywordstyle=\bfseries,
+  % underlined bold black keywords
+  identifierstyle=, % nothing happens
+%  commentstyle=\color{white}, % white comments
+  stringstyle=\ttfamily, % typewriter type for strings
+  showstringspaces=false,
+  frame=single,
+	language=Java,
+	numbers=left,
+	numberstyle=\tiny,
+	stepnumber=2,
+	numbersep=5pt
+}
+
+
+\author{Gonzalo A. Aranda Corral}
+\title{Modelo de paper LLNCS}
+
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Resumen de la cosa
+\end{abstract}
+
+\section{Introduction}
+\subsection{Encuadre en la situación mundial}
+\subsection{Planteamiento del problema}
+\subsection{Soluciones existentes y fallos}
+\subsection{Tu propuesta y como corrige fallos}
+
+\section{Desarrollo de tu solución}
+\subsection{Ingeniería - Tecnología}
+\subsection{Arquitectura de la solución}
+\subsection{Qué y Cómo...}
+
+\section{Experimentación y resultados}
+\subsection{cubrir casos de uso... o experimentos interesantes}
+
+\section{Conclusiones y trabajos futuros}
+
+\begin{thebibliography}{99}
+\bibitem Esto es lo que hay
+\end{thebibliography}
+
+\end{document}
